@@ -2,10 +2,12 @@
   "name": "@public-js/eslint-plugin-node",
   "version": "0.1.0",
   "description": "Tailored ESLint configurations",
-  "peerDependencies": {
-    "eslint": ">=8.7.0",
+  "dependencies": {
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-unicorn": "^41.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.7.0"
   },
   "license": "MIT",
   "author": "Public JS <public-js@muffin.blue> (https://github.com/public-js/public-js)",
