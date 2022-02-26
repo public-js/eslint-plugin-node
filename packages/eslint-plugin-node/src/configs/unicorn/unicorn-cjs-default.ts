@@ -1,5 +1,5 @@
-import { Linter } from 'eslint';
 import { knownRulesCJS, unknownEntries } from './preset';
+import { Linter } from 'eslint';
 
 const config: Linter.BaseConfig = {
     plugins: ['unicorn'],
