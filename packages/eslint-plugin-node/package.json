@@ -1,6 +1,6 @@
 {
   "name": "@public-js/eslint-plugin-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tailored ESLint configurations",
   "dependencies": {
     "eslint-plugin-simple-import-sort": "^7.0.0",

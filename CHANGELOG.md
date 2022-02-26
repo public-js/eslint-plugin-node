@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/public-js/eslint-plugin-node/compare/0.1.0...0.1.1) (2022-02-26)
+
+
+### Bug Fixes
+
+* npm dependencies ([837317a](https://github.com/public-js/eslint-plugin-node/commit/837317a3d6b9562d3edfd6003cab2f6dbc13a0dd))
+* npm dependencies ([0754680](https://github.com/public-js/eslint-plugin-node/commit/0754680bc65f55eefdaa2b4dd3313a6bf9a8b068))
+
 ## 0.1.0 (2022-02-26)
 
 
