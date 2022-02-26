@@ -1,5 +1,5 @@
-import { Linter } from 'eslint';
 import { knownRulesESM, unknownEntries } from './preset';
+import { Linter } from 'eslint';
 
 const config: Linter.BaseConfig = {
     env: { es2020: true },

@@ -96,7 +96,7 @@ export const knownRulesESM: Linter.RulesRecord = {
     // TODO: Enable this by default when targeting Node.js 14.
     'unicorn/prefer-top-level-await': 'off',
     'unicorn/prefer-type-error': 'error',
-    'unicorn/prevent-abbreviations': 'warn', // uni: 'error' -- negotiable
+    'unicorn/prevent-abbreviations': 'off', // uni: 'error' -- negotiable
     'unicorn/relative-url-style': 'error',
     'unicorn/require-array-join-separator': 'error',
     'unicorn/require-number-to-fixed-digits-argument': 'error',
