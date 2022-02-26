@@ -1,0 +1,42 @@
+{
+  "root": "packages/eslint-plugin-node",
+  "sourceRoot": "packages/eslint-plugin-node/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/eslint-plugin-node/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/eslint-plugin-node"],
+      "options": {
+        "jestConfig": "packages/eslint-plugin-node/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/eslint-plugin-node",
+        "tsConfig": "packages/eslint-plugin-node/tsconfig.lib.json",
+        "packageJson": "packages/eslint-plugin-node/package.json",
+        "main": "packages/eslint-plugin-node/index.ts",
+        "assets": ["README.md", "LICENSE"]
+      }
+    },
+    "publish": {
+      "executor": "@nrwl/workspace:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "npm publish --tag=latest --access public",
+        "cwd": "dist/packages/eslint-plugin-node"
+      }
+    }
+  },
+  "tags": []
+}

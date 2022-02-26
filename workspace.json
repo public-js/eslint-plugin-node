@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "projects": {
+    "eslint-plugin-node": "packages/eslint-plugin-node"
+  }
+}
