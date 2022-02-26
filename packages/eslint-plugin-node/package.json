@@ -1,6 +1,6 @@
 {
   "name": "@public-js/eslint-plugin-node",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tailored ESLint configurations",
   "peerDependencies": {
     "eslint": ">=8.7.0",
