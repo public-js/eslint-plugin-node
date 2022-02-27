@@ -85,7 +85,7 @@ export const knownRulesESM: Linter.RulesRecord = {
     'unicorn/prefer-reflect-apply': 'off', // uni: 'error'
     'unicorn/prefer-regexp-test': 'off', // uni: 'error' -- questionable
     'unicorn/prefer-set-has': 'warn', // uni: 'error' -- negotiable
-    'unicorn/prefer-spread': 'error',
+    'unicorn/prefer-spread': 'off', // uni: 'error' -- questionable
     // TODO: Enable this by default when targeting Node.js 16.
     'unicorn/prefer-string-replace-all': 'off',
     'unicorn/prefer-string-slice': 'error',
