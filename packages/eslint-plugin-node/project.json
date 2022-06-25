@@ -1,5 +1,5 @@
 {
-  "root": "packages/eslint-plugin-node",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/eslint-plugin-node/src",
   "projectType": "library",
   "targets": {
@@ -14,12 +14,12 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/packages/eslint-plugin-node"],
       "options": {
-        "jestConfig": "packages/eslint-plugin-node/jest.config.js",
+        "jestConfig": "packages/eslint-plugin-node/jest.config.ts",
         "passWithNoTests": true
       }
     },
     "build": {
-      "executor": "@nrwl/node:package",
+      "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/eslint-plugin-node",
